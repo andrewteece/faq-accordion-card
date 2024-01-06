@@ -1,0 +1,50 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/* CSS Custom Properties */
+
+:root {
+  --ff-primary: 'Kumbh Sans', sans-serif;
+
+  --fs-12: 0.75rem;
+  --fs-14: 0.875rem;
+  --fs-32: 2rem;
+
+  --fw-normal: 400;
+  --fw-bold: 700;
+
+  /* Primary Text Colors */
+
+  --clr-primary-text-1: hsl(238, 29%, 16%);
+  --clr-primary-text-2: hsl(14, 88%, 65%);
+
+  /* Gradient */
+
+  --clr-bkg-1: hsl(273, 75%, 66%);
+  --clr-bkg-2: hsl(240, 73%, 65%);
+
+  /* Neutral Text Colors */
+
+  --clr-neutral-text-1: hsl(237, 12%, 33%);
+  --clr-neutral-text-2: hsl(240, 6%, 50%);
+
+  /* Dividers Colors */
+
+  --clr-divider-1: hsl(240, 5%, 91%);
+}
+
+/* CSS Reset */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styles */
