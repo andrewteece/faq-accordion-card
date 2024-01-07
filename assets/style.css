@@ -150,6 +150,15 @@ p {
   transition: transform 0.3s ease-in-out;
 }
 
+.card__body--item .card__accordion--item.visible {
+  max-height: 3.75rem;
+  opacity: 1;
+}
+
+.card__body--item h2.clicked {
+  color: var(--clr-primary-text-1);
+}
+
 .card__accordion--item {
   max-width: 21.875rem;
   width: 15.625rem;
@@ -157,4 +166,10 @@ p {
   overflow: hidden;
   opacity: 0;
   transition: max-height 0.3s ease-in-out, opacity 0.3 ease-in-out;
+}
+
+.card__body--item h2:hover,
+.card__body--item h2:focus {
+  color: var(--clr-primary-text-2);
+  transition: color 0.3s ease-in-out;
 }
