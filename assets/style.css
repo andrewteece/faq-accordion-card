@@ -174,3 +174,81 @@ p {
   color: var(--clr-primary-text-2);
   transition: color 400ms ease-in-out;
 }
+
+@media screen and (min-width: 48rem) {
+  body {
+    padding: 0 1rem;
+  }
+
+  .wrapper {
+    flex-direction: row;
+    width: 45rem;
+    height: 30rem;
+    max-width: 70rem;
+    max-height: 32rem;
+    padding: 1rem 2ren 1rem 0;
+    gap: 4rem;
+    background: url(../images/bg-pattern-desktop.svg), white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: -470px -150px;
+  }
+
+  .bg__mock--mobile {
+    display: none;
+  }
+
+  .bg__shadow--img {
+    display: none;
+  }
+
+  .bg__patterns,
+  .card {
+    width: 50%;
+  }
+
+  .bg__mock--desktop {
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, 0%);
+  }
+
+  .bg__overflow {
+    overflow: hidden;
+  }
+
+  #box {
+    display: block;
+    position: absolute;
+    left: 50%;
+    width: 8.125rem;
+    transform: translate(-175%, -115%);
+    z-index: 1;
+  }
+
+  .bg__patterns img {
+    max-width: 37.5rem;
+    width: 18.75rem;
+  }
+
+  .card {
+    padding: 0;
+    align-items: flex-start;
+  }
+
+  .card__body {
+    max-height: 21.875rem;
+    height: 20rem;
+  }
+
+  .card__body--item div {
+    width: 20rem;
+  }
+
+  .card__body--item div.visible {
+    max-height: 6.25rem;
+    opacity: 1;
+  }
+}
