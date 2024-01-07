@@ -164,11 +164,8 @@ p {
   opacity: 1;
 }
 
-/*.card__body--item h2.clicked {
-  color: var(--clr-primary-text-1);
-} */
-
-h2.clicked {
+.card__body--item h2.clicked {
+  font-weight: var(--fw-bold);
   color: var(--clr-primary-text-1);
 }
 
