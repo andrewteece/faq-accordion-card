@@ -143,6 +143,7 @@ p {
   font-size: var(--fs-12);
   padding-bottom: 1rem;
   color: var(--clr-neutral-text-1);
+  line-height: 1.6;
 }
 
 .card__accordion--item {
@@ -186,7 +187,7 @@ p {
     height: 30rem;
     max-width: 70rem;
     max-height: 32rem;
-    padding: 1rem 2ren 1rem 0;
+    padding: 1rem 2rem 1rem 0;
     gap: 4rem;
     background: url(../images/bg-pattern-desktop.svg), white;
     background-repeat: no-repeat;
@@ -222,7 +223,7 @@ p {
   #box {
     display: block;
     position: absolute;
-    left: 50%;
+    left: 25%;
     width: 8.125rem;
     transform: translate(-175%, -115%);
     z-index: 1;
@@ -250,5 +251,26 @@ p {
   .card__body--item div.visible {
     max-height: 6.25rem;
     opacity: 1;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .wrapper {
+    width: 57rem;
+    height: 32rem;
+    background-position: -530px -265px;
+  }
+
+  .bg__patterns img {
+    width: 28.125rem;
+  }
+
+  .bg__mock--desktop {
+    transform: translate(-65%, 0%);
+  }
+
+  #box {
+    transform: translate(-170%, -122%);
+    width: 11.25rem;
   }
 }
