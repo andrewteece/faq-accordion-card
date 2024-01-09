@@ -9,6 +9,7 @@
 
   --fs-12: 0.75rem;
   --fs-14: 0.875rem;
+  --fs-24: 1.5rem;
   --fs-32: 2rem;
 
   --fw-normal: 400;
@@ -118,7 +119,7 @@ body {
   padding: 2rem 1rem;
 }
 
-.card__header {
+.card__header h1 {
   padding-bottom: 1rem;
   font-size: var(--fs-32);
 }
